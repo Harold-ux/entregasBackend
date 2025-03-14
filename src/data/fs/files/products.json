@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "a24fbafb9b83eee1d8617aae",
+    "title": "Handcrafted Plastic Fish",
+    "price": "312.05",
+    "stock": 468,
+    image: "https://picsum.photos/seed/MpvH0Q9MCf/2107/834",
+    "category": "ninguna"
+  },
+  {
+    "_id": "55fbe6feaa4afefcb5883d93",
+    "title": "Elegant Steel Chips",
+    "price": "217.25",
+    "stock": 610,
+    image: "https://picsum.photos/seed/IpzXoDa/2512/3842",
+    "category": "accesorios"
+  },
+  {
+    "_id": "cfd90ebd1f86eb3ad1c0e53a",
+    "title": "Small Frozen Table",
+    "price": "118.89",
+    "stock": 419,
+    image: "https://loremflickr.com/1892/222?lock=8254033297025783",
+    "category": "ninguna"
+  },
+  {
+    "_id": "9dbad21d94bab13e019ab6c0",
+    "title": "Rustic Cotton Keyboard",
+    "price": "171.29",
+    "stock": 971,
+    image: "https://picsum.photos/seed/8cmpvRXd/2288/3830",
+    "category": "accesorios"
+  },
+  {
+    "_id": "495ec1eb36927c30c0efabcd",
+    "title": "Calavera Sangrienta",
+    "price": "150.00",
+    "stock": 100,
+    image: "",
+    "category": "unica"
+  },
+  {
+    "_id": "f0f6a69f9fcabbaa934fd0d0",
+    "title": "Modern Plastic Salad",
+    "price": "470.69",
+    "stock": 551,
+    image: "https://picsum.photos/seed/qyp6Y/3976/675",
+    "category": "celulares"
+  },
+  {
+    "_id": "a5e3becb206e25be539aead6",
+    "title": "Elegant Wooden Fish",
+    "price": "365.79",
+    "stock": 888,
+    image: "https://picsum.photos/seed/AHX2V0GjUw/3766/3399",
+    "category": "celulares"
+  },
+  {
+    "_id": "0ba22415f599a758e05de9ea",
+    "title": "Handcrafted Gold Pants",
+    "price": "51.49",
+    "stock": 144,
+    image: "https://loremflickr.com/3047/2276?lock=6457738438247624",
+    "category": "ninguna"
+  },
+  {
+    "_id": "d58ea86ec1b2ddcf17fc4a03",
+    "title": "Handcrafted Steel Shoes",
+    "price": "259.09",
+    "stock": 592,
+    image: "https://picsum.photos/seed/vBNZDhT/840/2476",
+    "category": "accesorios"
+  },
+  {
+    "_id": "6e6a9d8f6994a6eccdf0acdb",
+    "title": "Handmade Ceramic Chips",
+    "price": "25.89",
+    "stock": 497,
+    image: "https://loremflickr.com/3090/1783?lock=2512331132397775",
+    "category": "computadoras"
+  },
+  {
+    "_id": "ed59eaaffafebafb4af9ed27",
+    "title": "Rustic Keyboard",
+    "price": "151.00",
+    "stock": 100,
+    image: "https://picsum.photos/seed/8cmpvRXd/2288/3830",
+    "category": "accesorios"
+  },
+  {
+    "_id": "e3517de9fee9fa7aadbfda8a",
+    "title": "Bespoke Marble Shirt",
+    "price": "162.50",
+    "stock": 340,
+    image: "https://picsum.photos/seed/Amffs3/3595/3288",
+    "category": "celulares"
+  }
+]

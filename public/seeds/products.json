@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Elegant Bronze Mouse",
+    "price": 322.29,
+    "stock": 224,
+    "photo": "https://picsum.photos/seed/vxZZVpN/1693/1206",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Refined Rubber Gloves",
+    "price": 814.95,
+    "stock": 61,
+    "photo": "https://picsum.photos/seed/Pv8Un/1197/2361",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Gorgeous Granite Soap",
+    "price": 2482.79,
+    "stock": 104,
+    "photo": "https://loremflickr.com/1729/2507?lock=1799326427226472",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Rustic Concrete Bike",
+    "price": 2772.23,
+    "stock": 330,
+    "photo": "https://picsum.photos/seed/EeNn9DQP5Q/1956/649",
+    "category": "ropa",
+    "availability": true
+  },
+  {
+    "title": "Small Wooden Bike",
+    "price": 2502.49,
+    "stock": 61,
+    "photo": "https://picsum.photos/seed/WxyaYhmSMj/123/471",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Awesome Silk Shirt",
+    "price": 563.75,
+    "stock": 128,
+    "photo": "https://picsum.photos/seed/3wbmIa2/3240/404",
+    "category": "ropa",
+    "availability": true
+  },
+  {
+    "title": "Small Gold Mouse",
+    "price": 2295.55,
+    "stock": 383,
+    "photo": "https://picsum.photos/seed/mXbzD/1264/492",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Modern Bamboo Fish",
+    "price": 2501.49,
+    "stock": 222,
+    "photo": "https://loremflickr.com/3626/2047?lock=5969147936122202",
+    "category": "ropa",
+    "availability": true
+  },
+  {
+    "title": "Licensed Bamboo Salad",
+    "price": 4334.2,
+    "stock": 310,
+    "photo": "https://loremflickr.com/2759/992?lock=8521059025683736",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Handmade Bamboo Towels",
+    "price": 2898.45,
+    "stock": 305,
+    "photo": "https://loremflickr.com/2658/2578?lock=8545286584077396",
+    "category": "ropa",
+    "availability": false
+  },
+  {
+    "title": "Tasty Gold Chips",
+    "price": 3069.3,
+    "stock": 60,
+    "photo": "https://loremflickr.com/2251/2089?lock=1591820051936553",
+    "category": "cellphones",
+    "availability": false
+  },
+  {
+    "title": "Electronic Marble Salad",
+    "price": 4149.09,
+    "stock": 298,
+    "photo": "https://loremflickr.com/480/2257?lock=4554584852038224",
+    "category": "cellphones",
+    "availability": true
+  },
+  {
+    "title": "Gorgeous Cotton Salad",
+    "price": 1026.55,
+    "stock": 342,
+    "photo": "https://picsum.photos/seed/DPh3wd/933/1969",
+    "category": "cellphones",
+    "availability": false
+  },
+  {
+    "title": "Incredible Plastic Chair",
+    "price": 2965.45,
+    "stock": 95,
+    "photo": "https://loremflickr.com/1510/1417?lock=6369247033207194",
+    "category": "cellphones",
+    "availability": false
+  },
+  {
+    "title": "Elegant Aluminum Chips",
+    "price": 3290.22,
+    "stock": 230,
+    "photo": "https://loremflickr.com/3959/515?lock=5102532545239389",
+    "category": "cellphones",
+    "availability": true
+  },
+  {
+    "title": "Handmade Silk Soap",
+    "price": 228.05,
+    "stock": 157,
+    "photo": "https://picsum.photos/seed/vBwKny/869/3609",
+    "category": "cellphones",
+    "availability": true
+  },
+  {
+    "title": "Soft Gold Ball",
+    "price": 500.89,
+    "stock": 220,
+    "photo": "https://loremflickr.com/359/3068?lock=7346412539007167",
+    "category": "cellphones",
+    "availability": true
+  },
+  {
+    "title": "Bespoke Bamboo Soap",
+    "price": 4014.09,
+    "stock": 56,
+    "photo": "https://loremflickr.com/3231/2282?lock=6507018753640678",
+    "category": "cellphones",
+    "availability": true
+  },
+  {
+    "title": "Unbranded Aluminum Bacon",
+    "price": 3626.5,
+    "stock": 494,
+    "photo": "https://loremflickr.com/1909/2459?lock=5404961053533505",
+    "category": "cellphones",
+    "availability": false
+  },
+  {
+    "title": "Handcrafted Gold Towels",
+    "price": 3899,
+    "stock": 442,
+    "photo": "https://loremflickr.com/2439/2070?lock=447960377902898",
+    "category": "cellphones",
+    "availability": false
+  },
+  {
+    "title": "Frozen Bamboo Salad",
+    "price": 1664.8,
+    "stock": 168,
+    "photo": "https://loremflickr.com/133/2623?lock=3282296569274621",
+    "category": "computers",
+    "availability": true
+  },
+  {
+    "title": "Gorgeous Aluminum Gloves",
+    "price": 2627.75,
+    "stock": 283,
+    "photo": "https://loremflickr.com/1864/2789?lock=3403418454461321",
+    "category": "computers",
+    "availability": false
+  },
+  {
+    "title": "Gorgeous Gold Fish",
+    "price": 1929.95,
+    "stock": 315,
+    "photo": "https://loremflickr.com/1825/2886?lock=4890194900825465",
+    "category": "computers",
+    "availability": false
+  },
+  {
+    "title": "Small Granite Fish",
+    "price": 1826.95,
+    "stock": 214,
+    "photo": "https://loremflickr.com/2607/1488?lock=6128378262130257",
+    "category": "computers",
+    "availability": false
+  },
+  {
+    "title": "Awesome Granite Soap",
+    "price": 4341.5,
+    "stock": 64,
+    "photo": "https://picsum.photos/seed/2VAD9sPuYQ/3911/3379",
+    "category": "computers",
+    "availability": true
+  },
+  {
+    "title": "Ergonomic Wooden Towels",
+    "price": 3836.69,
+    "stock": 165,
+    "photo": "https://picsum.photos/seed/HyU9aOjZi/1087/2797",
+    "category": "computers",
+    "availability": false
+  },
+  {
+    "title": "Bespoke Silk Chair",
+    "price": 3215.29,
+    "stock": 314,
+    "photo": "https://loremflickr.com/2751/1122?lock=1340879712837878",
+    "category": "computers",
+    "availability": true
+  },
+  {
+    "title": "Elegant Wooden Pants",
+    "price": 209,
+    "stock": 365,
+    "photo": "https://loremflickr.com/766/104?lock=4291847375368159",
+    "category": "computers",
+    "availability": true
+  },
+  {
+    "title": "Frozen Gold Hat",
+    "price": 213.69,
+    "stock": 310,
+    "photo": "https://picsum.photos/seed/JvNcT/3984/2544",
+    "category": "computers",
+    "availability": true
+  },
+  {
+    "title": "Soft Ceramic Sausages",
+    "price": 719.79,
+    "stock": 485,
+    "photo": "https://loremflickr.com/3309/976?lock=2038815230538684",
+    "category": "computers",
+    "availability": false
+  },
+  {
+    "title": "Ergonomic Steel Pizza",
+    "price": 3627.2,
+    "stock": 343,
+    "photo": "https://loremflickr.com/1477/2382?lock=233628516647249",
+    "category": "accessories",
+    "availability": false
+  },
+  {
+    "title": "Refined Plastic Cheese",
+    "price": 3286.39,
+    "stock": 480,
+    "photo": "https://picsum.photos/seed/2UDl3wUxz/3360/172",
+    "category": "accessories",
+    "availability": true
+  },
+  {
+    "title": "Intelligent Rubber Chair",
+    "price": 1255.09,
+    "stock": 323,
+    "photo": "https://picsum.photos/seed/sAn1Z/612/1159",
+    "category": "accessories",
+    "availability": true
+  },
+  {
+    "title": "Gorgeous Cotton Mouse",
+    "price": 2804.39,
+    "stock": 390,
+    "photo": "https://picsum.photos/seed/QyMo5DKzaG/1727/878",
+    "category": "accessories",
+    "availability": true
+  },
+  {
+    "title": "Frozen Silk Mouse",
+    "price": 4271.1,
+    "stock": 201,
+    "photo": "https://loremflickr.com/2275/837?lock=5288498268294556",
+    "category": "accessories",
+    "availability": false
+  },
+  {
+    "title": "Handcrafted Bamboo Tuna",
+    "price": 1188.3,
+    "stock": 63,
+    "photo": "https://loremflickr.com/689/1675?lock=585880735040584",
+    "category": "accessories",
+    "availability": false
+  },
+  {
+    "title": "Unbranded Gold Car",
+    "price": 1707.4,
+    "stock": 448,
+    "photo": "https://picsum.photos/seed/id4w83/2044/1691",
+    "category": "accessories",
+    "availability": false
+  },
+  {
+    "title": "Handcrafted Wooden Chips",
+    "price": 459.39,
+    "stock": 321,
+    "photo": "https://picsum.photos/seed/AzaSuShzw/2201/2956",
+    "category": "accessories",
+    "availability": true
+  },
+  {
+    "title": "Elegant Concrete Bike",
+    "price": 1587.29,
+    "stock": 152,
+    "photo": "https://picsum.photos/seed/oYeAVudYy9/2956/688",
+    "category": "accessories",
+    "availability": false
+  },
+  {
+    "title": "Licensed Steel Keyboard",
+    "price": 2437.55,
+    "stock": 70,
+    "photo": "https://loremflickr.com/559/2550?lock=6584372332088715",
+    "category": "accessories",
+    "availability": true
+  },
+  {
+    "title": "Bespoke Aluminum Chicken",
+    "price": 460.68,
+    "stock": 224,
+    "photo": "https://picsum.photos/seed/5Nu3nz/92/536",
+    "category": "none",
+    "availability": true
+  },
+  {
+    "title": "Gorgeous Cotton Fish",
+    "price": 2968.49,
+    "stock": 356,
+    "photo": "https://picsum.photos/seed/xWfwQs/3645/727",
+    "category": "none",
+    "availability": false
+  },
+  {
+    "title": "Handmade Metal Pizza",
+    "price": 2438.05,
+    "stock": 299,
+    "photo": "https://picsum.photos/seed/VXfAy/3043/1574",
+    "category": "none",
+    "availability": false
+  },
+  {
+    "title": "Recycled Bronze Cheese",
+    "price": 2777.88,
+    "stock": 260,
+    "photo": "https://picsum.photos/seed/PwZxdLui5V/3999/1844",
+    "category": "none",
+    "availability": true
+  },
+  {
+    "title": "Incredible Cotton Sausages",
+    "price": 1956.55,
+    "stock": 209,
+    "photo": "https://loremflickr.com/2183/94?lock=2784357136317621",
+    "category": "none",
+    "availability": true
+  },
+  {
+    "title": "Rustic Plastic Pants",
+    "price": 3628.69,
+    "stock": 452,
+    "photo": "https://loremflickr.com/1813/922?lock=1777361391302025",
+    "category": "none",
+    "availability": false
+  },
+  {
+    "title": "Unbranded Metal Car",
+    "price": 2829.7,
+    "stock": 391,
+    "photo": "https://picsum.photos/seed/V6KgVxdHe/2175/3122",
+    "category": "none",
+    "availability": false
+  },
+  {
+    "title": "Tasty Ceramic Sausages",
+    "price": 129.65,
+    "stock": 275,
+    "photo": "https://picsum.photos/seed/Mn9rS8/493/671",
+    "category": "none",
+    "availability": false
+  },
+  {
+    "title": "Tasty Rubber Car",
+    "price": 4038.29,
+    "stock": 58,
+    "photo": "https://picsum.photos/seed/HiYH6htR/1606/3617",
+    "category": "none",
+    "availability": false
+  },
+  {
+    "title": "Recycled Bronze Table",
+    "price": 2432.55,
+    "stock": 197,
+    "photo": "https://picsum.photos/seed/v6FOeWT/1108/601",
+    "category": "none",
+    "availability": true
+  }
+]

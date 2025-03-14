@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "ee43afebcfff800ce007db10",
+    "name": "eileen",
+    "lastName": "skiles",
+    "email": "Christina59@yahoo.com",
+    "address": "63589 Willard Alley",
+    "password": "hola1234",
+    "avatar": "https://avatars.githubusercontent.com/u/5301101",
+    "role": "user"
+  },
+  {
+    "_id": "b2d03bf23c5dc2a24f169ffe",
+    "name": "wendell",
+    "lastName": "murphy",
+    "email": "Tavares_Willms0@hotmail.com",
+    "address": "70563 Nathen Unions",
+    "password": "hola1234",
+    "avatar": "https://avatars.githubusercontent.com/u/42004421",
+    "role": "user"
+  },
+  {
+    "_id": "ae46c5ad358b8542b6a6c65e",
+    "name": "gwen",
+    "lastName": "wehner",
+    "email": "Percy_Skiles@hotmail.com",
+    "address": "77879 Willa Station",
+    "password": "hola1234",
+    "avatar": "https://avatars.githubusercontent.com/u/64625865",
+    "role": "user"
+  },
+  {
+    "_id": "3ea9deedeea47b9efdf5bada",
+    "name": "kerry",
+    "lastName": "boehm-feest",
+    "email": "Micah_Herzog70@hotmail.com",
+    "address": "55929 Clint Dale",
+    "password": "hola1234",
+    "avatar": "https://avatars.githubusercontent.com/u/93094286",
+    "role": "admin"
+  }
+]

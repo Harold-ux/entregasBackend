@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<p>{{message}}</p>
+
+<!-- src/views/cart.handlebars -->
+<h1>Cart: {{cid}}</h1>
+<section class="cart-products">
+  {{#each products}}
+    <div class="card" style="width: 18rem;" data-id="{{this._id}}">
+      <h5 class="card-title">{{this.title}}</h5>
+      <span class="attribute">💲 {{this.price}}</span>
+      <span class="attribute">📦 Quantity: {{this.quantity}}</span>
+      <button class="button remove-from-cart" data-id="{{this._id}}">Remove</button>
+    </div>
+  {{/each}}
+</section>

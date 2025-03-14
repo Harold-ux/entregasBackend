@@ -1,0 +1,33 @@
+<div class="product-container">
+  <h1>{{title}}</h1>
+  <section class="product-detail">
+    {{#if product}}
+      <div class="card-detail">
+        <img src="{{#if product.photo}}{{product.photo}}{{else}}https://img.freepik.com/vector-premium/vector-icono-imagen-predeterminado-pagina-imagen-faltante-diseno-sitio-web-o-aplicacion-movil-no-hay-foto-disponible_87543-11093.jpg{{/if}}"
+          alt="{{product.title}}"
+          class="product-img" />
+        <div class="product-info">
+          <h3>{{product.title}}</h3>
+          <p class="description">{{product.description}}</p>
+          <p class="price">💲 {{product.price}}</p>
+          <p class="stock">📦 Stock disponible: {{product.stock}}</p>
+
+          <label for="quantity">Cantidad:</label>
+          <input type="number" id="quantity" min="1" max="{{product.stock}}" value="1" />
+
+          <div class="button-container">
+            <button class="add-to-cart" id="{{product._id}}">Agregar al carrito</button>
+            <a href="/" class="back-home">Volver al inicio</a>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class="not-found">
+        <h1>¡NOT FOUND PRODUCT!</h1>
+        <a href="/">Volver al inicio</a>
+      </div>
+    {{/if}}
+  </section>
+</div>
+
+<script src="/public/scripts/product.js"></script>
