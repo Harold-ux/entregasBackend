@@ -1,100 +1,59 @@
-<h1 class="text-center">Real-Time Products</h1>
-<div class="real-time"><a href="/">Go back-end</a></div>
-<!-- Lista de productos actualizable en tiempo real -->
-<section class="products-real">
-  {{#each products}}
-    <div class="card" style="width: 18rem;" data-id="{{this._id}}">
-      <img src="{{#if this.photo}}{{this.photo}}{{else}}https://static.thenounproject.com/png/1247947-200.png{{/if}}" 
-           class="card-img-top" alt="Product photo" />
-      <div class="card-body">
-        <h5 class="card-title">{{this.title}}</h5>
-        <div class="d-flex justify-content-between align-items-center">
-          <span class="attribute">💲 {{this.price}}</span>
-          <span class="attribute">📦 Stock: {{this.stock}}</span>
-        </div>
-        <div class="button-container">
-          <a href="/product/{{this._id}}" class="button">View more</a>
-          <button class="button" data-id="{{this._id}}"> Delete</button>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Products</title>
+    {{!-- <link rel="stylesheet" href="styles.css"> --}}
+</head>
+<body>
+    <h3 class="text-center">Real-Time Products</h3>
+    <div class="real-time"><a href="/">Go back-end</a></div>
+
+    <!-- Lista de productos actualizable en tiempo real -->
+    <section class="products-real">
+    {{#each products}}
+      <div class="card" style="width: 18rem;" data-id="{{this._id}}">
+        <img src="{{#if this.photo}}{{this.photo}}{{else}}https://static.thenounproject.com/png/1247947-200.png{{/if}}" 
+             class="card-img-top" alt="Product photo" />
+        <div class="card-body">
+          <h5 class="card-title">{{this.title}}</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="attribute">💲 {{this.price}}</span>
+            <span class="attribute">📦 Stock: {{this.stock}}</span>
+          </div>
+          <div class="button-container">
+            <a href="/product/{{this._id}}" class="button">View more</a>
+            <button class="button delete-btn" data-id="{{this._id}}">Delete</button>
+          </div>
         </div>
       </div>
+    {{/each}}
+    </section>
+
+    <!-- Pagination controls -->
+    <div class="pagination-controls">
+      <button id="prevPage" class="btn btn-primary">Previous</button>
+      <span id="pageInfo"></span>
+      <button id="nextPage" class="btn btn-primary">Next</button>
     </div>
-  {{/each}}
-</section>
 
-<!-- Formulario para agregar productos con espacio superior -->
-<form id="addProductForm" class="mb-4 mt-4">
-  <h2 class="text-center">Add a New Product</h2>
-  <div class="mb-3">
-    <label for="title" class="form-label">Product Name</label>
-    <input type="text" class="form-control" id="title" required />
-  </div>
-  <div class="mb-3">
-    <label for="price" class="form-label">Price</label>
-    <input type="number" class="form-control" id="price" required />
-  </div>
-  <div class="mb-3">
-    <label for="stock" class="form-label">Stock</label>
-    <input type="number" class="form-control" id="stock" required />
-  </div>
-  <button type="submit" class="btn btn-success">Add Product</button>
-</form>
-
-<!-- Incluir Socket.io -->
-<script src="/socket.io/socket.io.js"></script>
-<script>
-  const socket = io();
-
-  socket.on("connect", () => {
-    console.log("Conectado al servidor WebSocket");
-  });
-
-  socket.on("updateProducts", (products) => {
-    const productList = document.getElementById("productList");
-    productList.innerHTML = "";
-
-    products.forEach((product) => {
-      const productCard = document.createElement("div");
-      productCard.classList.add("card", "product-card");
-      productCard.style.width = "18rem";
-      productCard.dataset.id = product._id;
-
-      const photo = product.photo || "https://img.freepik.com/vector-premium/vector-icono-imagen-predeterminada-pagina-imagen-faltante-diseno-sitio-web-o-aplicacion-movil-no-hay-foto-disponible_87543-11093.jpg";
-
-      productCard.innerHTML = `
-        <img src="${photo}" class="card-img-top" alt="Product photo">
-        <div class="card-body">
-          <h5 class="card-title">${product.title}</h5>
-          <p class="card-text">💲 ${product.price} - 📦 Stock: ${product.stock}</p>
-          <button class="btn btn-danger delete-btn" data-id="${product._id}">Delete</button>
-        </div>
-      `;
-
-      productList.appendChild(productCard);
-    });
-  });
-
-  const form = document.getElementById("addProductForm");
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const title = document.getElementById("title").value;
-    const price = parseFloat(document.getElementById("price").value);
-    const stock = parseInt(document.getElementById("stock").value);
-    let photo = "https://img.freepik.com/vector-premium/vector-icono-imagen-predeterminada-pagina-imagen-faltante-diseno-sitio-web-o-aplicacion-movil-no-hay-foto-disponible_87543-11093.jpg";
-
-    if (!title || !price || !stock) {
-      alert("Por favor, completa todos los campos");
-      return;
-    }
-
-    socket.emit("addProduct", { title, price, stock, photo });
-    form.reset();
-  });
-
-  document.getElementById("productList").addEventListener("click", (event) => {
-    if (event.target.classList.contains("delete-btn")) {
-      const productId = event.target.dataset.id;
-      socket.emit("deleteProduct", productId);
-    }
-  });
-</script>
+    <!-- Formulario para agregar productos -->
+    <form id="addProductForm" class="mb-4 mt-4">
+      <h2 class="text-center">Add a New Product</h2>
+      <div class="mb-3">
+        <label for="title" class="form-label">Product Name</label>
+        <input type="text" class="form-control" id="title" required />
+      </div>
+      <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input type="number" class="form-control" id="price" required />
+      </div>
+      <div class="mb-3">
+        <label for="stock" class="form-label">Stock</label>
+        <input type="number" class="form-control" id="stock" required />
+      </div>
+      <button type="submit" class="btn btn-success">Add Product</button>
+    </form>
+</body>
+</html>

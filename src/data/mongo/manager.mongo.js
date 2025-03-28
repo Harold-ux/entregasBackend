@@ -42,16 +42,16 @@ class Manager {
 
   destroyById = async (id) => {
     try {
-      const one = await this.model.findOneAndDelete(id);
+      const one = await this.model.findByIdAndDelete(id);
       return one;
     } catch (error) {
       throw new Error(`Error deleting document (${id}): ${error.message}`);
     }
   };
 
-  paginate = async (page, limit) => {
+  paginate = async (filter, options) => {
     try {
-      const all = await this.model.paginate({}, { page, limit });
+      const all = await this.model.paginate(filter, options);
       return all;
     } catch (error) {
       throw new Error(`Error paginating documents: ${error.message}`);

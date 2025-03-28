@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (addToCartButton) {
     addToCartButton.addEventListener("click", async (event) => {
-      const productId = event.target.id; // ID del producto
+      const productId = event.target.id;
       const quantity = document.getElementById("quantity").value;
-      const userId = "USER_ID"; // Reemplaza esto con el ID del usuario actual
+      const userId = "USER_ID";
 
       try {
         const response = await fetch("/api/carts", {

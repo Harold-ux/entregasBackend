@@ -1,3 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
 .message-container {
     display: flex;
     justify-content: center;
@@ -170,8 +178,8 @@ h5 {
     text-decoration: none;
     display: inline-block;
     padding: 2px 10px;
-    background-color: #d3d3d3bf;
-    color: #740909;
+    background-color: #b0b0b0;
+    color: #3482F8;
     font-size: 16px;
     border-radius: 8px;
     text-align: center;
@@ -183,8 +191,8 @@ h5 {
 }
 
 .button:hover {
-    background-color: #b0b0b0;
-}
+    background-color: #E8E8E8;
+}       
 
 .button-container {
     display: flex;
@@ -214,7 +222,7 @@ h5 {
     justify-content: center;
     background-color: #d3d3d3bf;
     border-radius: 8px;
-    color: #740909;
+    color: #3482F8;
     font-size: 16px;
     text-decoration: none;
     text-align: center;
@@ -225,13 +233,13 @@ h5 {
 
 .real-time a {
     text-decoration: none;
-    color: #740909;
+    color: #1d1e20;
     font-weight: bold;
     padding: 2px;
 }
 
 .real-time:hover {
-    background-color: #b0b0b0;
+    background-color: #aaa9a9;
 }
 
 .text-center {
@@ -243,14 +251,6 @@ h5 {
     margin-bottom: 80px;
 }
 
-#productList {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 25px;
-    width: 100%;
-    margin: 0 auto;
-}
 
 .justify-content-start {
     justify-content: center !important;
@@ -280,12 +280,12 @@ h5 {
 }
 
 
-.real-product{
-    /* display: flex; */
+.real-product {
+    display: flex;
     justify-content: center;
     background-color: #d3d3d3bf;
     border-radius: 8px;
-    color: #740909;
+    color: #3482F8;
     font-size: 16px;
     text-decoration: none;
     text-align: center;
@@ -299,9 +299,36 @@ h5 {
     font-weight: bold;
 }
 
-.category-filter{
-    padding: 20px;
+.category-filter {
+    padding: 2px;
     display: flex;
     flex-direction: column-reverse;
     align-items: baseline;
-}   
+}
+
+.btn-filter {
+    background-color: #949a9f;
+    color: rgb(124, 85, 186);
+    border: none;
+    text-shadow: #1d1e20;
+    border-radius: 5px;
+    padding: 3px 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-filter:hover {
+    background-color: #0056b3;
+}
+
+.btn-filter:active {
+    background-color: #004085;
+    transform: scale(0.98);
+}
+
+.btn-filter:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}

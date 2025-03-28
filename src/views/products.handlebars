@@ -1,9 +1,5 @@
-<!-- src/views/index.handlebars -->
-<div class="message-container">
-  <p>{{message}}</p>
-</div>
-
-<div class="category-filter">
+<div class="real-time"><a href="/">Go back-end</a></div>
+<div>
   <label for="category">Filter by Category:</label>
   <form action="/products" method="GET">
     <select name="query">
@@ -14,15 +10,7 @@
       <option value="none">None</option>
     </select>
     <button class="btn-filter" type="submit">Filter</button>
-  </form>
-  <div class="real-time">
-    <a href="/products">View products/paginate</a>
-  </div>
-  <div class="real-time">
-    <a href="/realTimeProducts">Go to Real-Time Render</a>
-  </div>
-</div>
-
+  </form></div>
 <section class="products-real">
   {{#each products}}
     <div class="card" style="width: 18rem;" data-id="{{this._id}}">
@@ -49,3 +37,19 @@
     </div>
   {{/each}}
 </section>
+<!-- Pagination -->
+<div class="pagination-container">
+  {{#if hasPrevPage}}
+    <a
+      href="/products?page={{prevPage}}&query={{lookup query}}"
+      class="pagination-button"
+    >Previous</a>
+  {{/if}}
+
+  {{#if hasNextPage}}
+    <a
+      href="/products?page={{nextPage}}&query={{lookup query}}"
+      class="pagination-button"
+    >Next</a>
+  {{/if}}
+</div>

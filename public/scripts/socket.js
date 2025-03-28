@@ -1,4 +1,4 @@
-/* console.log("Connecting to script!");
+console.log("Connecting to script!");
 
 const socket = io();
 
@@ -55,4 +55,3 @@ productList.addEventListener("click", (event) => {
     }
   }
 });
- */

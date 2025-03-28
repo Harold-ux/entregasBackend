@@ -15,6 +15,7 @@ class ProductsManager {
         "cellphones",
         "computers",
         "accessories",
+        "clothes",
       ]);
 
       const newProduct = {
